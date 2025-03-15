@@ -6,7 +6,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "copy-to-docs": "rimraf docs && mkdirp docs && cp -R dist docs",
+    "copy-to-docs": "rimraf docs/* && mkdirp docs && cp -R dist/* docs",
     "build-to-docs": "npm run build && npm run copy-to-docs",
     "astro": "astro"
   },
